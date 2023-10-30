@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name": "Read Webpage Content",
+    "name": "Sponsor Check",
     "version": "1.0",
     "description": "Reads the content of the web page",
     "permissions": [

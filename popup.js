@@ -9,8 +9,10 @@ document.addEventListener("DOMContentLoaded", function() {
           var textContent = selection[0];
           if (textContent.includes("Clearance") || textContent.includes("Sponsorship")) {
             alert("No sponsorship");
+          } else if (textContent.includes("Contract")) { 
+            alert("Contract Position, No H1B Sponsorship");
           } else {
-            alert("Content of the page: " + textContent);
+            alert("Sponsorship Available");
           }
         }
       });
